@@ -15,6 +15,10 @@
     "user": {
       "plugin": "users-permissions",
       "model": "user"
+    },
+    "validated": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
