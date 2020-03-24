@@ -55,6 +55,15 @@
     },
     "telephone": {
       "type": "integer"
+    },
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "url": {
+      "type": "string"
     }
   }
 }

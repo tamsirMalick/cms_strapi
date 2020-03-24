@@ -23,6 +23,9 @@
       "via": "related",
       "plugin": "upload",
       "required": false
+    },
+    "url": {
+      "type": "string"
     }
   }
 }
